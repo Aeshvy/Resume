@@ -1,114 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>Alexander E. - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Alexander E.
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          aeshvy@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +972898989891
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-</head>
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="skills">Skills</a>
+          <a class="topmenu" href="projects">Projects</a>
+          <a class="topmenu" href="recommendation">Recommendation</a>
+        </div>
+      </div>    
+    </nav>
 
-<body>
-    <center>
-        <img src="./assets/Me.png" height="100">
-        <h2>Summary</h2>
-        A highly motivated ex-military personnel and graduate of the Faculty of International Relations.<br>
-        Organized and team-oriented individual with a strong track record of successful initiatives in the military and
-        creative industries.<br>
-        With my unique combination of international relations knowledge, design and ability to work under any
-        pressure,<br>
-        I am confident that I can be a great asset for any organization.
-    </center>
-    <hr>
-    <center>
-        <h2>Education</h2>
-        <b>Lesya Ukrainka Eastern European National University</b><br>
-        Bachelor's Degree<br>
-        <b>International Relations</b><br>
-        2012 - 2014<br>
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://cdn.dribbble.com/users/926537/screenshots/8768655/media/0eb8fcc9f2b8a55c589cfabd6cc89d94.gif" class="profile_image"/>
+      </div>
 
-        <br>
+      <div>
+          <h1>
+            Hi, I'm Alex! <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Emoji_u1f44b.svg/2048px-Emoji_u1f44b.svg.png" width="60px"/>
+          </h1>
+          <p>
+            Enthusiastic and detail-oriented aspiring Full-Stack Web Developer with a solid foundation in front-end and back-end development.
+            Adept at collaborating with cross-functional teams and passionate about staying up-to-date with emerging technologies.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
 
-        <b>Jagiellonian University</b><br>
-        Bachelor's Degree<br>
-        <b>International Relations & Cultural Affairs</b><br>
-        2014-2017
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"/>
+          <h6>HTML</h6>
+          <p>1 years experience</p>
+        </div>  
 
-        <hr>
+        <div class="skill">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"/>
+          <h6>JavaScript</h6>
+          <p>1 years experience</p>
+        </div>  
 
-        <h2>Work Experience</h2>
-        <b>Israel Defence Forces</b><br>
-        Full-time • 2017-2023<br>
-        Platoon Leader of Combative Drivers<br>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"/>
+            <h6>CSS</h6>
+            <p>1 years experience</p>
+          </div>
 
-        <br>
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png"/>
+            <h6>Illustrator</h6>
+            <p>3 years experience</p>
+          </div> 
 
-        <b>Fiverr</b><br>
-        Freelance • 2016-<br>
-        <b>Hebrew Translator</b><br>
-        <br>
-        Translator with several years of experience, specializing<br>
-        in linguistics, translation, language services, and client relations.<br>
-        Background in Hebrew-English language translations for clients and<br>
-        organizations.<br>
+          <div class="skill">
+            <img src="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format"/>
+            <h6>Figma</h6>
+            <p>3 years experience</p>
+          </div>
 
-        <br>
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
 
-        <b>Fiverr</b><br>
-        Freelance • 2022-<br>
-        <b>Graphic Designer</b><br>
-        <br>
-        Specializing in the Adobe Creative Suite, motion graphics,<br>
-        brand identity, and illustration. Proficiency in Figma (UX-UI).
-       
-        <hr>
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Snapbot</h3>
+            <ul>
+              <li>Developed a web-based music player that detects sound and allows users to switch songs using various sounds.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <ul>
+              <li>Created a weather application using third-party APIs to fetch and display real-time weather data based on user's location. Implemented a clean and intuitive UI using HTML, CSS, and JavaScript.</li>
+            </ul>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
 
-        <h2>Skills</h2>
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Alex is a rapid learner and quickly grasps key concepts of Web development. 
+          He has a great attitude & he is an excellent team player. 
+          He has a curious mind and asks the right question. 
+          He takes initiative within a team and has the potential to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Alex has been an awesome experience. 
+          He is highly knowledgeable and always goes the extra step to ensure everything is right. 
+          For any future projects that need his expertise, I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked with Alex during our venture's initial phase, which needed Web development. 
+          He is a committed resource who has in-depth knowledge about the domain. 
+          He will be an asset to any organization! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
 
-        <table>
-            <tr>
-                <th>Graphic Design</th>
-                <th>Video Design</th>
-                <th>Web Design</th>
-            </tr>
-            <tr>
-                <td>Illustrator</td>
-                <td>Premiere Pro</td>
-                <td>Figma</td>
-            </tr>
-            <tr>
-                <td>Photoshop</td>
-                <td>Davinci</td>
-                <td>HTML</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
 
-        <hr>
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
 
-        <h2>Certifications</h2>
-        <a href="https://coursera.org/share/ccee75336f761c791480528b511e4c6d">Cloud Computing</a>
-
-        <hr>
-
-        <a href="https://www.linkedin.com/in/alexander-eshvovych-66a835117/">Contact</a>
-
-        <footer>
-            <p>© 2023 Alexander E.</p>
-          </footer>
-
-        <h4>Click on the play button to play a sound:<h4>
-
-<audio controls>
-  <source src="./assets/doom theme.mp3" type="audio/ogg">
-  <source src="./assets/doom theme.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-    </center>
-</body>
-
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
 </html>
